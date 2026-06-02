@@ -1,0 +1,36 @@
+{
+  "order_id": "ORD-6535961160",
+  "created_at": "2026-06-01",
+  "status": "confirmed",
+  "customer": {
+    "name": "Vũ Văn Học",
+    "phone": "023423242",
+    "email": "example@123.com",
+    "shipping_address": "Tại Thành Phố HCM"
+  },
+  "items": [
+    {
+      "product_id": "LT-001",
+      "sku": "ROG-G14-2026",
+      "name": "ASUS ROG Zephyrus G14",
+      "category": "laptop",
+      "quantity": 1,
+      "unit_price": 32900000,
+      "line_total": 32900000
+    }
+  ],
+  "pricing": {
+    "currency": "VND",
+    "subtotal": 32900000,
+    "discount_rate": 0.2,
+    "discount_amount": 6580000,
+    "final_total": 26320000
+  },
+  "discount": {
+    "campaign_code": "FLASH-20",
+    "customer_tier": "standard"
+  },
+  "notes": "",
+  "save_path": "artifacts/orders/ORD-6535961160.json",
+  "source": "llm-order-agent"
+}

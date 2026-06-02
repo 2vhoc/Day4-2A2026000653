@@ -1,0 +1,54 @@
+{
+  "order_id": "ORD-191AC34662",
+  "created_at": "2026-06-01",
+  "status": "confirmed",
+  "customer": {
+    "name": "Vũ Văn Học",
+    "phone": "023423242",
+    "email": "example@123.com",
+    "shipping_address": "Tại Thành Phố HCM"
+  },
+  "items": [
+    {
+      "product_id": "HD-001",
+      "sku": "SNY-WH1000XM5",
+      "name": "Sony WH-1000XM5",
+      "category": "headphone",
+      "quantity": 1,
+      "unit_price": 7990000,
+      "line_total": 7990000
+    },
+    {
+      "product_id": "LT-001",
+      "sku": "ROG-G14-2026",
+      "name": "ASUS ROG Zephyrus G14",
+      "category": "laptop",
+      "quantity": 1,
+      "unit_price": 32900000,
+      "line_total": 32900000
+    },
+    {
+      "product_id": "LT-005",
+      "sku": "ACR-NITRO-V15",
+      "name": "Acer Nitro V 15",
+      "category": "laptop",
+      "quantity": 1,
+      "unit_price": 15990000,
+      "line_total": 15990000
+    }
+  ],
+  "pricing": {
+    "currency": "VND",
+    "subtotal": 56880000,
+    "discount_rate": 0.2,
+    "discount_amount": 11376000,
+    "final_total": 45504000
+  },
+  "discount": {
+    "campaign_code": "FLASH-20",
+    "customer_tier": "standard"
+  },
+  "notes": "",
+  "save_path": "artifacts/orders/ORD-191AC34662.json",
+  "source": "llm-order-agent"
+}
