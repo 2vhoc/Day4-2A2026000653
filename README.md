@@ -198,5 +198,4 @@ pytest -q
 - lưu kết quả tệp JSON chính xác
 - đưa ra câu trả lời cuối cùng bằng tiếng Việt ngắn gọn, súc tích và dựa trên dữ liệu (grounded answer)
 
-Hãy đọc [guide.md](/Users/duongnh59.al1/Documents/Project/Vin20K/Cohort2/Day-4-Lab/labs_update/guide.md) trước khi chỉnh sửa trong thư mục `src/`.
 
