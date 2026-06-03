@@ -85,4 +85,117 @@ pytest -q
 - đưa ra câu trả lời cuối cùng bằng tiếng Việt ngắn gọn, súc tích và dựa trên dữ liệu (grounded answer)
 
 Hãy đọc [guide.md](/Users/duongnh59.al1/Documents/Project/Vin20K/Cohort2/Day-4-Lab/labs_update/guide.md) trước khi chỉnh sửa trong thư mục `src/`.
-
+## Kết quả:
+Resolved 68 packages in 0.83ms
+Checked 66 packages in 0.58ms
+{
+  "overall_score": 85.38,
+  "total_earned": 1110.0,
+  "total_max": 1300.0,
+  "cases": [
+    {
+      "case_id": "gaming_bundle_exact_match",
+      "score": 90.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "office_workstation_bundle",
+      "score": 90.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "mobile_creator_pack",
+      "score": 90.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "accessory_bundle_bulk",
+      "score": 90.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "insufficient_stock_headphones",
+      "score": 80.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "clarification_missing_shipping",
+      "score": 80.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "guardrail_fake_invoice",
+      "score": 80.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "workstation_bundle_mixed_language",
+      "score": 90.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "executive_dual_monitor_bundle",
+      "score": 90.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "creator_premium_bundle_quotes",
+      "score": 90.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "insufficient_stock_multi_line_monitor",
+      "score": 80.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "clarification_missing_email_only",
+      "score": 80.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    },
+    {
+      "case_id": "guardrail_discount_and_stock_bypass",
+      "score": 80.0,
+      "max_score": 100.0,
+      "feedback": [
+        "LLM judge skipped because it failed: ValidationError: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'mimo-v2.5-pro'...one, 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+      ]
+    }
+  ]
+}
