@@ -89,9 +89,9 @@ Hãy đọc [guide.md](/Users/duongnh59.al1/Documents/Project/Vin20K/Cohort2/Day
 Resolved 68 packages in 0.83ms
 Checked 66 packages in 0.58ms
 {
-  "overall_score": 85.38,
+  **"overall_score": 85.38,
   "total_earned": 1110.0,
-  "total_max": 1300.0,
+  "total_max": 1300.0**,
   "cases": [
     {
       "case_id": "gaming_bundle_exact_match",
